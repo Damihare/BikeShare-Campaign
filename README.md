@@ -25,7 +25,7 @@ Analyse Phase
 2. Then the following are identified:
 3. Avg. ride length per member type
 4. Avg. ride length per member type per day of the week.
-5. # of rides per member typer per day of the week.
+5. Number of rides per member typer per day of the week.
 6. Identify distinct count of riders per member type.
 7. Max ride length per member type
 8. Day of the week with the most travel 
