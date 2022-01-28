@@ -33,6 +33,11 @@ Analyse Phase
 10. Preferred bike type 
 
 Share Phase
-Visualisations were created using Tableau. Published here  
+Visualisations were created using Tableau. Published here https://public.tableau.com/views/BikeRideCampaign/Avg_TripLength_per_day_of_week?:language=en-US&:display_count=n&:origin=viz_share_link
 
 Act Phase
+I would hope for the opportunity to present the following business findings:
+1. There are more casual riders who spend more time riding regardless of day of the week or month of the year; therefore, encouraging them to switch over to the annual membership as a cost saving measure would be primary suggestion for the campaign.
+2. I would focus my ad space on the most frequented stops and start dock stations
+3. I will also mention a plan to increase their preferred bike type in the campaign.
+4. Overall there are no significant behavioral patterns between annual and casual users save that casual riders ride more and longer. 
