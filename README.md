@@ -32,9 +32,7 @@ Analyse Phase
 9. Most frequented dock station
 10. Preferred bike type 
 
-
 Share Phase
-Visualisations were created using Tableau. Published here  and included in the powerpoint presentation.
+Visualisations were created using Tableau. Published here  
 
 Act Phase
-A powerpoint presentation was compiled - Cyclistic - Annual Members differ Casual Riders.pptx.
