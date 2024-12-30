@@ -36,11 +36,11 @@ having count(1) > 1;
   ---Find or confirm data errors---
 select
 min (end_lng),
-max(end_lng),
-min (end_lat),
+max(end_lng), 
+min (end_lat), 
 max(end_lat),
 min (start_lng),
-max(start_lng),
+max(start_lng), 
 min (start_lat),
 max(start_lat)
 from divvytripdata_2021;
@@ -59,7 +59,7 @@ from [Cyclistic_2021_BikeRide].[dbo].[divvytripdata_2021]
 where rideable_type is null;
 /*there are no null values*/
 
-select  id, started_at, ended_at,
+select  id, started_at, ended_at, 
 from divvytripdata_2021
 where started_at >= ended_at;
 /* there are 3017 records*/
@@ -85,12 +85,12 @@ drop column False_station;
 
 update divvytripdata_2021
 set False_stations = 'Y'
-where start_station is null and
+where start_station is null and 
 	end_station is null;
 
 ---Exclude cases where False_starts contains Y & Tranfer data with null for dock stations---
 
-delete
+delete 
 from divvytripdata_2021
 where False_starts like '%Y%';
 
@@ -98,11 +98,11 @@ select count(* )
 from divvytripdata_2021
 where start_station is null and end_station is null;
 
-select *
+select * 
 into BikeRide_NoLogStation
 from (select *
 from divvytripdata_2021
-where start_station is null and end_station is null)a
+where start_station is null and end_station is null)a 
 
 delete
 from divvytripdata_2021
@@ -119,6 +119,7 @@ set trip_length = datediff(minute, started_at, ended_at);
 select avg(trip_length) as avg_trip_length, member_type, count(member_type)
 from divvytripdata_2021
 group by member_type;
+
 
 select avg(trip_length) as avg_trip_length, day_of_week
 from divvytripdata_2021
@@ -167,3 +168,8 @@ order by frequented_start desc;
 select member_type, rideable_type, count(1) as preferred_bike
 from divvytripdata_2021
 group by rideable_type, member_type;
+
+
+
+
+
